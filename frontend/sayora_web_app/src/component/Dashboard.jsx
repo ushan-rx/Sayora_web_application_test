@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from './NavbarMy'
+
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div className='w-full'>
+        <Navbar/>
+    </div>
   )
 }
 
